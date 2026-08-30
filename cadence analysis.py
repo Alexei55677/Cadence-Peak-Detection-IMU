@@ -173,7 +173,6 @@ def calculate_cadence(
         cadences.append(cadence)
     return cadences
 
-# FIX: Adjusted the typing signature for strict lints
 def plot_pipeline(
     original_df: pd.DataFrame,
     processed_df: pd.DataFrame,
